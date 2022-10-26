@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:webpage_nb/home_page.dart';
 
 class FlutterWidgetsPage extends StatefulWidget {
   const FlutterWidgetsPage({super.key});
@@ -83,7 +81,7 @@ class _FlutterWidgetsPageState extends State<FlutterWidgetsPage> {
                           borderRadius: BorderRadius.circular(16),
                           color: Colors.blue[50]
                         ),
-                        child: Icon(FontAwesomeIcons.faceGrinBeam),
+                        child: const Icon(FontAwesomeIcons.faceGrinBeam),
                       ),
                     );
                   })
