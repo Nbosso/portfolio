@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:webpage_nb/flutter_widgets_page.dart';
+import 'package:portfolio/flutter_widgets_page.dart';
 
 import 'home_page.dart';
 
