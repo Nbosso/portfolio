@@ -9,12 +9,12 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:portfolio/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('Find text', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     await tester.pumpWidget(const MyApp());
 
     // Verify that our counter starts at 0.
-    expect(find.text('Natan'), findsOneWidget);
+    expect(find.text('Sobre mim:'), findsWidgets);
     // expect(find.text('1'), findsNothing);
 
     // Tap the '+' icon and trigger a frame.
