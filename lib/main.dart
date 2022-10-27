@@ -18,9 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      routes: {
-        '/flutter_widgets': (context) => const FlutterWidgetsPage()
-      },
+      routes: {'/flutter_widgets': (context) => const FlutterWidgetsPage()},
       home: const HomePage(),
     );
   }

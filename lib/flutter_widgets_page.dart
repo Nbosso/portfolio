@@ -67,16 +67,13 @@ class _FlutterWidgetsPageState extends State<FlutterWidgetsPage> {
                 children: [
                   ...widgets.map((e) {
                     return InkWell(
-                      onTap: (() {
-                        
-                      }),
+                      onTap: (() {}),
                       child: Container(
                         width: 300,
                         height: 300,
                         decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(16),
-                          color: Colors.blue[50]
-                        ),
+                            borderRadius: BorderRadius.circular(16),
+                            color: Colors.blue[50]),
                         child: const Icon(FontAwesomeIcons.faceGrinBeam),
                       ),
                     );
